@@ -1,0 +1,6 @@
+name: Empty
+version: 1.0.0
+description: Deploys an empty environment
+engine:
+  type: ARM
+  templatePath: azuredeploy.json
