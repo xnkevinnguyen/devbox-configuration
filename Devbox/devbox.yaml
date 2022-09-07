@@ -4,16 +4,8 @@ image:
   publisher: Microsoft
   offer: Vscode
   sku: vscode-win11  
-host_requirements:
+hostrequirements:
   cpus: 8
   memory: 32gb
   storage: 128gb
-# artifacts:
-#   microsoft/artifacts/vscode:
-#     version: latest
-# repositories:
-#   microsoft/some-repo:
-#     clone:true
-# on_create_command:
-#   'choco install vscode'
-    
+
