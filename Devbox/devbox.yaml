@@ -1,4 +1,4 @@
-name: project-devbox
+name: project-devbox2
 image:
   type: PlatformImage
   publisher: Microsoft
