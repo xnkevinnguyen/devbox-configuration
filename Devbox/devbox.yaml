@@ -1,9 +1,9 @@
-name: project-devbox2
+name: project-sample-3
 image:
   type: PlatformImage
   publisher: Microsoft
-  offer: Vscode
-  sku: vscode-win11  
+  offer: Windows-Desktop
+  sku: win11H1
 hostrequirements:
   cpus: 8
   memory: 32gb
