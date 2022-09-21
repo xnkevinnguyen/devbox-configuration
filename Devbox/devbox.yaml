@@ -1,9 +1,9 @@
-name: project-sample-6
+name: project-sample-7
 image:
   type: PlatformImage
   publisher: Microsoft
-  offer: Windows-VisualStudio
-  sku: visualstudio-win11
+  offer: Windows-vscode
+  sku: vscode-win11
 hostrequirements:
   cpus: 8
   memory: 32gb
