@@ -1,11 +1,7 @@
 name: project-sample-8
-image:
-  type: PlatformImage
-  publisher: Microsoft
-  offer: Windows-vscode
-  sku: vscode-win11
-hostrequirements:
-  cpus: 8
-  memory: 32gb
-  storage: 128gb
+tasks:
+  nodejs:
+    version: 2.5.0
+  vscode:
+    version: 4.6.0
 
