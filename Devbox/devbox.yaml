@@ -1,7 +1,6 @@
 name: project-sample-8
 tasks:
-  nodejs:
+  - name: nodejs
     version: 2.5.0
-  vscode:
+  - name: vscode
     version: 4.6.0
-
