@@ -1,2 +1,2 @@
 name: nodejs
-template: ./install-nodejs.ps1
+templatePath: ./install-nodejs.ps1
