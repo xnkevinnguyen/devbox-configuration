@@ -1,9 +1,9 @@
-$schema: "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+$schema: "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json"
 name: "Chocolatey"
 publisher: "Microsoft"
-description: "Installs the Chocolatey package manager along with a user selected set of packages",
-iconUri: "https://github.com/chocolatey/choco/raw/master/docs/logo.png",
-powershellEntrypoint: "./install-chocolatey.ps1", # initial script started for the task
+description: "Installs the Chocolatey package manager along with a user selected set of packages"
+iconUri: "https://github.com/chocolatey/choco/raw/master/docs/logo.png"
+powershellEntrypoint: "./install-chocolatey.ps1"
 dependencies: 
 - ./packageSource.exe
 - ./packageSource2.exe
