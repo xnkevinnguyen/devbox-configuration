@@ -1,10 +1,6 @@
 name: project-sample-9
 tasks:
-  - name: nodejs
-    parameters:
-      - name: version
-        value: 2.5.0
-  - name: vscode
+  - name: chocolatey
     parameters:
       - name: version
         value: 2.8.0
