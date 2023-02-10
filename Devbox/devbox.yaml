@@ -4,3 +4,4 @@ tasks:
     parameters:
       - name: version
         value: 2.8.0
+  - name: write-to-file
