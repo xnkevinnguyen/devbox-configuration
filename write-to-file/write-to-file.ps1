@@ -1,1 +1,1 @@
-echo "Testing Customization" >> C:\\test.txt
+echo "Testing Customization" >> C:\\dritest.txt
