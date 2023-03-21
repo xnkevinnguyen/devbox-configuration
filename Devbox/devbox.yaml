@@ -5,7 +5,7 @@ tasks:
     parameters:
       - name: version
         value: 2.8.0
-  - name: choco-install
+  - name: choco
     parameters:
         - name: package
           value: notepadplusplus.install

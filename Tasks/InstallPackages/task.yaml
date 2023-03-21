@@ -1,4 +1,4 @@
-name: choco-install
+name: choco
 powershellEntrypoint: "./choco.ps1 -Package parameters('package')"
 parameters:
   - name: "package"
