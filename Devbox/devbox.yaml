@@ -1,7 +1,11 @@
-name: project-sample-9
+name: sample
 tasks:
-  - name: chocolatey
+  - name: write-to-file    
+  - name: install-chocolatey
     parameters:
       - name: version
         value: 2.8.0
-  - name: write-to-file
+  - name: choco-install
+    parameters:
+        - name: package
+          value: notepadplusplus.install

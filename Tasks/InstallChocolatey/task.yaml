@@ -1,4 +1,4 @@
-name: chocolatey
+name: install-chocolatey
 powershellEntrypoint: "./install-chocolatey.ps1"
 parameters:
 - name: version
