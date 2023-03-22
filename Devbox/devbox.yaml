@@ -8,4 +8,8 @@ tasks:
   - name: choco
     parameters:
         - name: package
-          value: notepadplusplus.install
+          value: vscode
+  - name: choco
+    parameters:
+        - name: package
+          value: postman
