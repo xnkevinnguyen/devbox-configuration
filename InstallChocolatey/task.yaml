@@ -1,6 +1,0 @@
-name: install-chocolatey
-powershellEntrypoint: "./install-chocolatey.ps1"
-parameters:
-- name: version
-  type: string
-  required: false
