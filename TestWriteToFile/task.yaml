@@ -1,2 +1,2 @@
 name: write-to-file
-powershellEntrypoint: "./write-to-file.ps1"
+command: "./write-to-file.ps1"

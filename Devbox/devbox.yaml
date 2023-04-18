@@ -1,15 +1,12 @@
 name: sample
-tasks:
-  - name: write-to-file    
-  - name: install-by-uri
-    parameters:
-      - name: uri
-        value: 'https://community.chocolatey.org/install.ps1'
-  - name: choco
-    parameters:
-        - name: package
-          value: vscode
-  - name: install-by-uri
-    parameters:
-        - name: uri
-          value: 'https://dl-cli.pstmn.io/install/win64.ps1'
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+hostInformation: general_a_8c32gb256ssd_v2
+supportsHibernation: false
+setupTasks:
+  - task: write-to-file    
+  - task: install-by-uri
+    inputs:
+      uri: 'https://community.chocolatey.org/install.ps1'
+  - task: choco
+    inputs:
+        package: vscode

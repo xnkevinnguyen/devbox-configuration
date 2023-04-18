@@ -1,7 +1,7 @@
 name: choco
-powershellEntrypoint: "./choco.ps1 -Package parameters('package')"
-parameters:
-  - name: "package"
-    default: ""
+command: "./choco.ps1 -Package parameters('package')"
+inputs:
+  package:
     type: "string"
+    defaultValue: ""
     required: true

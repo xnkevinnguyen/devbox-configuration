@@ -1,6 +1,7 @@
 name: install-by-uri
-powershellEntrypoint: "./install-by-uri.ps1 -Uri parameters('uri')"
-parameters:
-- name: uri
-  type: string
-  required: true
+command: "./install-by-uri.ps1 -Uri parameters('uri')"
+inputs:
+  uri:
+    type: string
+    defaultValue: ""    
+    required: true
