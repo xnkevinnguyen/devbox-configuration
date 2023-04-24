@@ -1,5 +1,5 @@
 name: sample
-image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+image: /subscriptions/dbf77359-2037-45ca-aa27-a3df4fae9251/resourceGroups/drielerg/providers/Microsoft.DevCenter/devcenters/DrieleDevCenter/galleries/Default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365/versions/1.0.0@1.0.0
 hostInformation: general_a_8c32gb256ssd_v2
 supportsHibernation: false
 setupTasks:
