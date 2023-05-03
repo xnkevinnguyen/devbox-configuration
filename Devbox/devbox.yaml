@@ -10,6 +10,3 @@ setupTasks:
   - task: choco
     inputs:
         package: vscode
-  - task: powershell 
-    inputs:
-        powershellInput: 'mkdir C:\\sometest ; cd c:\\sometest'
