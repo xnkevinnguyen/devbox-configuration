@@ -1,0 +1,7 @@
+name: powershell
+command: "parameters('powershellInput')"
+inputs:
+  powershellInput:
+    type: string
+    defaultValue: ""    
+    required: true
