@@ -1,7 +1,7 @@
 name: powershell
-command: "parameters('powershellInput')"
+command: "{{command}}"
 inputs:
-  powershellInput:
+  command:
     type: string
     defaultValue: ""    
     required: true

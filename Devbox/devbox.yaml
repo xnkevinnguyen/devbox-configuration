@@ -1,12 +1,9 @@
-name: sample
+name: powershell-customization-test
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365@1.0.0
 hostInformation: general_a_8c32gb256ssd_v1
 supportsHibernation: false
 setupTasks:
-  - task: write-to-file    
-  - task: install-by-uri
+  - task: powershell
     inputs:
-      uri: 'https://community.chocolatey.org/install.ps1'
-  - task: choco
-    inputs:
-        package: vscode
+      command: echo "Testing Powershell Task" >> C:\\intital-setup-test.txt
+
