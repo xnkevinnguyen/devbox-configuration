@@ -1,0 +1,13 @@
+name: devbox-customization
+image: imagedef1@latest
+hostInformation: general_a_8c32gb256ssd_v1
+supportsHibernation: false
+setupTasks:
+  - task: choco
+    inputs:
+      packages: git.install, nodejs
+  - task: write-text
+    inputs:
+      boolParam: false
+      stringParam: hello devbox
+      arrayParam: 1, 2, 3
