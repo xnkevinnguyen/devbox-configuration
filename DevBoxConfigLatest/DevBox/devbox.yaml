@@ -1,6 +1,6 @@
 name: devbox-customization
 image: imagedef1@latest
-hostInformation: general_a_8c32gb256ssd_v1
+hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 setupTasks:
   - task: choco
