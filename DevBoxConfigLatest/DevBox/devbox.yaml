@@ -1,4 +1,4 @@
-name: devbox-customization
+name: devbox-customization-latest
 image: imagedef1@Latest
 hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
