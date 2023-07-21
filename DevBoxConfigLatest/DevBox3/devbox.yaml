@@ -1,5 +1,5 @@
-name: devbox-customization-latest3
-image: gallerycentralus/imagedef1@Latest
+name: devbox-customization-latest4
+image: gallerytest3/imagedef1@Latest
 hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 setupTasks:
