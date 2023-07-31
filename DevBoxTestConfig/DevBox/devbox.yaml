@@ -1,4 +1,4 @@
-name: devbox-customization
+name: devboxDefaultLatest
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2@Latest
 hostInformation: general_a_8c32gb256ssd_v1
 supportsHibernation: false
