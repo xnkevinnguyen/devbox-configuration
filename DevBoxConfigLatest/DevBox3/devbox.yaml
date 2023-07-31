@@ -1,5 +1,5 @@
-name: devbox-customization-latest5
-image: gallerytest3/imagedef2@Latest
+name: devbox-customization-latest6
+image: hristogalleryPPE/hristoImage@Latest
 hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 setupTasks:
