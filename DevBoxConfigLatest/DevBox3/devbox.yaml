@@ -1,5 +1,5 @@
 name: devbox-customization-latest8
-image: hristogalleryPPE/hristoImage3
+image: hristogalleryPPE/hristoImage3@2.1.1
 hostInformation: general_a_8c32gb256ssd_v2
 supportsHibernation: false
 setupTasks:
