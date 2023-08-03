@@ -1,5 +1,5 @@
 name: devboxDefaultLatest
-image: hristogalleryPPE/hristoImage3@2.1.1
+image: hristoGallery/hristoImage3@2.1.1
 hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 setupTasks:
