@@ -1,4 +1,4 @@
-name: choco
+name: choco1
 command: "./choco.ps1 -Package parameters('package')"
 inputs:
   package:
