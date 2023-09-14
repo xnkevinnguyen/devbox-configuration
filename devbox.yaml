@@ -1,0 +1,13 @@
+name: rootTest3
+image: hristoGallery/hristoImage3@2.1.1
+hostInformation: general_i_32c128gb2048ssd_v2
+supportsHibernation: false
+setupTasks:
+  - task: choco
+    inputs:
+      packages: git.install, nodejs
+  - task: write-text
+    inputs:
+      boolParam: false
+      stringParam: hello devbox
+      arrayParam: 1, 2, 3
