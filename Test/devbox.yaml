@@ -1,0 +1,15 @@
+name: devbox-test
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365
+hostInformation: general_i_8c32gb256ssd_v2
+supportsHibernation: false
+setupTasks:
+  - task: install-chocolatey
+  - task: choco
+    inputs:
+      package: vscode
+  - task: choco
+    inputs:
+      package: notepadplusplus
+  - task: powershell
+    inputs:
+      command: echo "Testing Powershell Task" >> C:\\powershell-test.txt
