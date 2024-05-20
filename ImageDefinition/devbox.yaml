@@ -1,0 +1,6 @@
+name: image-definition-test
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365@1.0.0
+tasks:
+  - task: choco
+    inputs:
+        package: vscode
