@@ -1,6 +1,7 @@
-name: image-definition-test
-image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365@1.0.0
+$schema: 1.0
+name: project-sample-1
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 tasks:
-  - task: choco
-    inputs:
-        package: vscode
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
