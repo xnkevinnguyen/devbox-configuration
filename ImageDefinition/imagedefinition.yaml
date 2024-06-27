@@ -5,3 +5,6 @@ tasks:
     - name: choco
       parameters:
         package: notepadplusplus.install
+    - name: choco
+      parameters:
+        package: vscode.install
