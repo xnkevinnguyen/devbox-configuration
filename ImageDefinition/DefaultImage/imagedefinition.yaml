@@ -8,3 +8,6 @@ tasks:
     - name: choco
       parameters:
         package: vscode.install
+    - name: choco
+      parameters:
+        package: vscode.install
