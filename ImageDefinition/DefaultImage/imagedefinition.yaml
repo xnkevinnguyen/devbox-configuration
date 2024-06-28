@@ -10,4 +10,5 @@ tasks:
         package: vscode.install
     - name: choco
       parameters:
-        package: vscode.install
+        package: vscode.install # Duplicate task
+        
