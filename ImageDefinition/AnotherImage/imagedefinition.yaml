@@ -1,0 +1,8 @@
+$schema: 1.0
+name: workingImage
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc
+tasks:
+    - name: choco
+      displayName: Notepad
+      parameters:
+        package: notepadplusplus.install
