@@ -1,0 +1,21 @@
+$schema: "1.0"
+name: echo
+description: This task writes a message to a specified file.
+author: Your Name
+command: |
+  param (
+    [string]$file,
+    [string]$msg
+  )
+
+  # Write the message to the specified file
+  Set-Content -Path $file -Value $msg
+parameters:
+  file:
+    type: string
+    required: true
+    description: The path to the file where the message will be written.
+  msg:
+    type: string
+    required: true
+    description: The message to write to the file.
