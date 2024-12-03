@@ -1,0 +1,16 @@
+$schema: 1.0
+name: ImageDefinitionB
+extends:
+  imageDefinition: ImageDefinitionA
+  parameters:
+    echoMsgA: 'Image Definition B providing echoMsgA'
+parameters:
+  echoMsgB:
+    default: 'Default echoMsgB'
+    type: 'string'
+    required: false
+tasks:
+  - name: echo
+    parameters:
+      file: 'C:\\b.txt'
+      msg: '{{echoMsgB}}'

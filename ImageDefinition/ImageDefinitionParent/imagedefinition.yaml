@@ -1,0 +1,13 @@
+$schema: 1.0
+name: ImageDefinitionA
+image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+parameters:
+  echoMsgA:
+    default: 'Default echoMsgA'
+    type: 'string'
+    required: false
+tasks:
+  - name: echo
+    parameters:
+      file: 'C:\\a.txt'
+      msg: '{{echoMsgA}}'
