@@ -11,4 +11,9 @@ tasks:
     - name: choco
       parameters:
         package: vscode.install # Duplicate task
+    - name: choco
+      parameters:
+        package: firefox # Duplicate task
+
+
         
