@@ -1,5 +1,5 @@
 $schema: "1.0"
-name: ImageDefinitionA
+name: nonexisting
 image: microsoftvisualstudio_windowsplustools_base-win11-gen2
 parameters:
   echoMsgA:
@@ -11,5 +11,3 @@ tasks:
     parameters:
       file: 'C:\\a.txt'
       msg: '{{echoMsgA}}'
-
-breakingchange
