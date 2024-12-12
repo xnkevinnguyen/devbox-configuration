@@ -1,7 +1,7 @@
 $schema: "1.0"
 name: ImageDefinitionB
 extends:
-  imageDefinition: ImageDefinitionA
+  imageDefinition: nonexisting
   parameters:
     echoMsgA: 'Image Definition B providing echoMsgA'
 parameters:
