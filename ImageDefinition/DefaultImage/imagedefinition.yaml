@@ -1,6 +1,6 @@
 $schema: 1.0
 name: project-sample-debug
-image: ~Gallery~Default~microsoftvisualstudio_windowsplustools_base-win11-gen2
+image: ~Gallery~Default~MicrosoftWindowsDesktop_windows-ent-cpc_win11-22h2-ent-cpc-os
 tasks:
     - name: choco
       parameters:
@@ -14,6 +14,5 @@ tasks:
     - name: choco
       parameters:
         package: firefox # Duplicate task
-breakingchange
 
         
