@@ -10,9 +10,11 @@ tasks:
         package: vscode.install
     - name: choco
       parameters:
-        package: vscode.install # Duplicate task
+        package: nonexistingpackage
     - name: choco
       parameters:
-        package: firefox # Duplicate task
-breakingchange
+        package: firefox
+    - name: powershell
+      parameters:
+        command: 'Get-Content -Path "C:\nonexistingfile.txt"'
         
